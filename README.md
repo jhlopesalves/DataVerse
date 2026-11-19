@@ -16,21 +16,20 @@ The subjects vary, from language and the humanities to urban and social data. Ea
 
 Each project lives in a numbered directory under [`projects/`](projects/). Start with its README for the research question, data provenance, setup instructions and methodological limitations, then open the notebook to follow the analysis and its figures. Some projects require separately obtained data or map resources.
 
-## Plotting style
+## Running a project
 
-The figures use the reusable Matplotlib style in [`src/dataverse_style/`](src/dataverse_style/).
-For local development, `uv sync` installs the package in editable mode and includes the `dev` dependency group.
+Each project has its own environment, managed with [uv](https://docs.astral.sh/uv/):
 
-`Theme.accent` colours the header bar and is the default highlight for `plot_line` and
-`plot_band`. `Theme.palette` independently defines the categorical cycle used by native
-Matplotlib calls such as `ax.plot()` when they take a colour from the axes' cycle.
-`editorial_subplots()` creates its axes with the figure theme's cycle. Other native defaults,
-such as the font for new annotations, follow the current Matplotlib `rcParams`. Use `use()`
-for session-wide defaults or `theme_context(get_theme(fig))` when adding native axes and
-artists under a particular figure's theme. Native calls still accept explicit styles and
-`ax.set_prop_cycle()`.
+```bash
+cd projects/<project>
+uv sync
+```
 
-Package helpers resolve a supplied theme first, then the figure's theme, then the active
-theme. `style_axes()` retains its resolved theme for the managed bottom spine on redraw
-and export. Pass colours to individual helpers or use `Theme.line_style()` and
-`Theme.band_style()` with native Matplotlib calls for more control.
+Then select the project's `.venv` as the notebook kernel.
+
+## Licence
+
+- Code: MIT, in [`LICENSE`](LICENSE).
+- Text and figures: CC BY 4.0, in [`LICENSE-CC-BY-4.0.txt`](LICENSE-CC-BY-4.0.txt).
+- IBM Plex fonts: SIL Open Font License 1.1, in [`fonts/OFL.txt`](fonts/OFL.txt).
+- Data and third-party material inside figures, such as base-map imagery, remain under their own terms, listed in each project's README.
