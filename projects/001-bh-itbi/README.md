@@ -12,19 +12,18 @@ Filters, estimators and interval assumptions are explained beside the analysis.
 From the DataVerse root:
 
 ```bash
-uv sync --project projects/001-bh-itbi
+cd projects/001-bh-itbi
+uv sync
 ```
 
-Select `projects/001-bh-itbi/.venv/bin/python` as the notebook kernel and run with
-that project as the working directory. The project has its own lockfile and an
-editable dependency on the DataVerse root (`../..`). It needs no private manual,
-custom sys.path entry or separately published plotting distribution.
+Select `.venv/bin/python` in this directory as the notebook kernel and run the
+notebook from here. The project has its own lockfile. Its house style is in
+[`house_style.py`](house_style.py), which registers the IBM Plex fonts from the
+repository's [`fonts/`](../../fonts/) directory for the session.
 
-The dataset and basemap tiles are fetched on the first run and cached. IBM Plex
-registration is optional and local; DejaVu is the built-in fallback. The
-notebook's setup describes explicit optional font acquisition. No font is
-installed system-wide. The analytical notebook and canonical PNGs are retained;
-inputs, tile caches and environments are ignored.
+The dataset and base-map tiles are fetched on the first run and cached. The
+repository keeps the notebook and the rendered PNGs; downloaded inputs, tile
+caches and environments stay local.
 
 ## Input identity and attribution
 
