@@ -1,0 +1,51 @@
+# Python and build artefacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.whl
+*.tar.gz
+
+# Development and testing caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local fonts, caches and example outputs
+fonts/
+/output/
+.cache/
+tile_cache/
+**/data/raw/
+**/data/interim/
+**/data/cache/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.tmp
+*.bak
