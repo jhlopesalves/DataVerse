@@ -9,22 +9,13 @@ dist/
 *.whl
 *.tar.gz
 
-# Development and testing caches
+# Development caches
 .ruff_cache/
-.mypy_cache/
-.pytest_cache/
-.hypothesis/
-.tox/
-.nox/
-.coverage
-.coverage.*
-htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Local fonts, caches and example outputs
-fonts/
+# Local caches and example outputs
 /output/
 .cache/
 tile_cache/
