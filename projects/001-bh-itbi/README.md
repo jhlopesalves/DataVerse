@@ -1,6 +1,6 @@
 # Belo Horizonte's housing market in ITBI records
 
-[Notebook](dataverse_001.ipynb) · [Portfolio](../../README.md)
+[Notebook](dataverso_001.ipynb) · [Portfolio](../../README.md)
 
 The notebook studies declared property values and tax bases, spatial price
 patterns, characteristics-adjusted indices and round-number clustering. It
@@ -9,7 +9,7 @@ Filters, estimators and interval assumptions are explained beside the analysis.
 
 ## Reproduce locally
 
-From the DataVerse root:
+From the DataVerso root:
 
 ```bash
 cd projects/001-bh-itbi

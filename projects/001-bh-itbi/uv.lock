@@ -264,7 +264,7 @@ wheels = [
 ]
 
 [[package]]
-name = "dataverse-001-bh-itbi"
+name = "dataverso-001-bh-itbi"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

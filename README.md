@@ -1,8 +1,8 @@
-# DataVerse
+# DataVerso
 
 **Explorations in data, statistics and visualisation.**
 
-DataVerse is where I collect short, independent analytical projects published as part of **#SextaDeDados**. Each exploration starts with a question and develops it through data, code and statistical reasoning, with particular attention to how the results are communicated visually.
+DataVerso is where I collect short, independent analytical projects published as part of **#SextaDeDados**. Each exploration starts with a question and develops it through data, code and statistical reasoning, with particular attention to how the results are communicated visually.
 
 The subjects vary, from language and the humanities to urban and social data. Each project has its own methods, data sources and limitations.
 
@@ -10,7 +10,7 @@ The subjects vary, from language and the humanities to urban and social data. Ea
 
 | Project | What it explores | Materials |
 | --- | --- | --- |
-| **001 · Belo Horizonte property transactions** | Declared property values, spatial variation, quality-adjusted trends and clustering around round numbers in municipal ITBI records. | [Project notes](projects/001-bh-itbi/README.md) · [Notebook](projects/001-bh-itbi/dataverse_001.ipynb) |
+| **001 · Belo Horizonte property transactions** | Declared property values, spatial variation, quality-adjusted trends and clustering around round numbers in municipal ITBI records. | [Project notes](projects/001-bh-itbi/README.md) · [Notebook](projects/001-bh-itbi/dataverso_001.ipynb) |
 
 ## Exploring the work
 

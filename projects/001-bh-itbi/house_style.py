@@ -1,4 +1,4 @@
-"""House style for the figures of DataVerse exploration 001.
+"""House style for the figures of DataVerso exploration 001.
 
 The module holds the colours, canvas sizes and Matplotlib defaults of the figures, the header
 and footer drawn around each of them, the axes styling and the number formatting of the tick
