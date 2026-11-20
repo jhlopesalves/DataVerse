@@ -16,7 +16,7 @@ from matplotlib.ticker import FuncFormatter
 
 # The IBM Plex fonts live at the repository root, two levels above this file.
 FONT_DIR = Path(__file__).resolve().parents[2] / "fonts"
-SIGNATURE = "Dataverse"  # bottom right of every figure
+SIGNATURE = "github.com/jhlopesalves/DataVerso"  # bottom right of every figure
 
 # --- Colours -------------------------------------------------------------------------------
 PAPER = "#fbfaf7"  # background
